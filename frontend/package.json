@@ -17,7 +17,7 @@
     "formik": "^2.3.4",
     "yup": "^1.0.2",
     "date-fns": "^2.29.3",
-    "stripe": "^11.11.0",
+    "stripe": "^20.4.1",
     "@stripe/react-stripe-js": "^1.15.0",
     "@stripe/stripe-js": "^1.46.0",
     "react-scripts": "5.0.1"
