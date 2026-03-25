@@ -20,6 +20,8 @@ A complete **full-stack food delivery application** with customer ordering, rest
 - 📝 **[Changelog](./CHANGELOG.md)** - Versioned project history
 - 🏗️ **[ADR Index](./docs/ADR/README.md)** - Architecture decision records
 - 🔄 **[PR Template](./.github/PULL_REQUEST_TEMPLATE.md)** - Pull request quality checklist
+- ⚙️ **[GitHub Setup Guide](./GITHUB_PROJECT_SETUP.md)** - CI, labels, templates configuration
+- 🏷️ **[Release Notes v1.0.0-beta](./RELEASE_NOTES_v1.0.0-beta.md)** - Baseline release summary
 
 ---
 
