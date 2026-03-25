@@ -11,6 +11,12 @@ A complete **full-stack food delivery application** with customer ordering, rest
 - 📖 **[Complete Setup Guide](./DEPLOYMENT.md)** - Full deployment & configuration
 - 📊 **[Progress Tracker](./PROGRESS.md)** - Development timeline
 - 📋 **[Features Summary](./PHASE_4_5_6_SUMMARY.md)** - All implemented features
+- ⚡ **[Quick Start](./QUICK_START.md)** - Run locally in minutes
+- 🛣️ **[Future Roadmap](./FUTURE_ROADMAP.md)** - 12-month product and engineering plan
+- 🤝 **[Contributing Guide](./CONTRIBUTING_GUIDE.md)** - Team workflow and code standards
+- 🧱 **[Architecture Decisions](./ARCHITECTURE_DECISIONS.md)** - ADR-style technical decisions
+- 🧪 **[Testing Strategy](./TESTING_STRATEGY.md)** - Test pyramid and quality gates
+- 🚀 **[Release Playbook](./RELEASE_PLAYBOOK.md)** - Safe release and rollback process
 
 ---
 
