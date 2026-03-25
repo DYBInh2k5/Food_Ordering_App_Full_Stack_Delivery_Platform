@@ -7,6 +7,7 @@ This guide explains how to use the repository-level GitHub automation and govern
 - .github/workflows/frontend-ci.yml
 - .github/workflows/release.yml
 - .github/workflows/codeql.yml
+- .github/workflows/label-sync.yml
 - .github/dependabot.yml
 - .github/labels.yml
 - scripts/sync-github-labels.ps1
@@ -33,7 +34,9 @@ Available templates:
 ## 3. Default Labels
 Label definitions are stored in .github/labels.yml.
 
-To apply labels to GitHub repository:
+Labels are applied automatically by label-sync.yml when labels.yml changes.
+
+To run label sync manually from local machine:
 1. Install GitHub CLI.
 2. Authenticate: gh auth login
 3. Run script:
@@ -65,3 +68,4 @@ Recommended release flow:
 ## Change Log
 - 2026-03-25: Initial GitHub project setup guide created.
 - 2026-03-25: Added split CI, auto-release workflow, CodeQL scan, and Dependabot.
+- 2026-03-25: Added automatic GitHub label sync workflow.
