@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project documentation
+    url: https://github.com/DYBInh2k5/Food_Ordering_App_Full_Stack_Delivery_Platform/blob/main/README.md
+    about: Start with setup and development guides before opening an issue.
+  - name: Deployment guide
+    url: https://github.com/DYBInh2k5/Food_Ordering_App_Full_Stack_Delivery_Platform/blob/main/DEPLOYMENT.md
+    about: Check deployment troubleshooting and environment setup guidance.

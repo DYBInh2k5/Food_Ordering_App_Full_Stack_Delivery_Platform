@@ -17,6 +17,9 @@ A complete **full-stack food delivery application** with customer ordering, rest
 - 🧱 **[Architecture Decisions](./ARCHITECTURE_DECISIONS.md)** - ADR-style technical decisions
 - 🧪 **[Testing Strategy](./TESTING_STRATEGY.md)** - Test pyramid and quality gates
 - 🚀 **[Release Playbook](./RELEASE_PLAYBOOK.md)** - Safe release and rollback process
+- 📝 **[Changelog](./CHANGELOG.md)** - Versioned project history
+- 🏗️ **[ADR Index](./docs/ADR/README.md)** - Architecture decision records
+- 🔄 **[PR Template](./.github/PULL_REQUEST_TEMPLATE.md)** - Pull request quality checklist
 
 ---
 
