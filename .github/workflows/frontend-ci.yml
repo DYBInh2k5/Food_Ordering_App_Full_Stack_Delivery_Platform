@@ -1,41 +1,25 @@
-name: CI
+name: Frontend CI
 
 on:
   pull_request:
     branches: [main]
+    paths:
+      - frontend/**
+      - .github/workflows/frontend-ci.yml
   push:
     branches: [main]
+    paths:
+      - frontend/**
+      - .github/workflows/frontend-ci.yml
 
 jobs:
-  backend:
-    name: Backend Test
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-          cache-dependency-path: backend/package-lock.json
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run tests
-        run: npm test -- --passWithNoTests
-
-  frontend:
-    name: Frontend Build and Test
+  test-frontend:
+    name: Build and Test Frontend
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: frontend
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4

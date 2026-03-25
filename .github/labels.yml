@@ -37,3 +37,7 @@
 - name: security
   color: d93f0b
   description: Security-related issue
+
+- name: dependencies
+  color: 0366d6
+  description: Dependency updates and maintenance

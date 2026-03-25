@@ -3,14 +3,18 @@
 This guide explains how to use the repository-level GitHub automation and governance assets.
 
 ## Included Files
-- .github/workflows/ci.yml
+- .github/workflows/backend-ci.yml
+- .github/workflows/frontend-ci.yml
+- .github/workflows/release.yml
+- .github/workflows/codeql.yml
+- .github/dependabot.yml
 - .github/labels.yml
 - scripts/sync-github-labels.ps1
 - .github/ISSUE_TEMPLATE/*
 - .github/PULL_REQUEST_TEMPLATE.md
 
 ## 1. CI Workflow
-The CI pipeline runs on push and pull request to main.
+The CI pipeline is split into two dedicated workflows.
 
 Checks:
 - Backend dependency install and tests
@@ -46,9 +50,13 @@ Recommended release flow:
 1. Update CHANGELOG.md
 2. Tag release: git tag -a vX.Y.Z -m "Release vX.Y.Z"
 3. Push tag: git push origin vX.Y.Z
-4. Create GitHub release using tag and release notes
+4. release.yml creates the GitHub Release automatically
 
-## 5. Governance Recommendations
+## 5. Security and Dependency Automation
+- codeql.yml runs static security analysis on push, pull request, and weekly schedule.
+- dependabot.yml checks npm and GitHub Actions dependencies weekly.
+
+## 6. Governance Recommendations
 - Protect main branch with required PR reviews.
 - Require CI checks before merge.
 - Enforce linear history or squash merge.
@@ -56,3 +64,4 @@ Recommended release flow:
 
 ## Change Log
 - 2026-03-25: Initial GitHub project setup guide created.
+- 2026-03-25: Added split CI, auto-release workflow, CodeQL scan, and Dependabot.
