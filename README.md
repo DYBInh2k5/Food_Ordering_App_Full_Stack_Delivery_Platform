@@ -360,7 +360,7 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-For support, email support@foodapp.com or open an issue on GitHub.
+For support, email binhvo20055@gmail.com or open an issue on GitHub.
 
 ---
 
